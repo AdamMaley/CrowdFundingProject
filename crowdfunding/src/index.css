@@ -16,3 +16,9 @@ body {
   top: -13%;
   transform: translateX(-50%);
 }
+
+
+
+.data > article:last-child {
+  opacity: 25%; 
+}

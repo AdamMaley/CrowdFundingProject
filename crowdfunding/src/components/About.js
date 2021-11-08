@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 
+import Pledges from './Pledges';
+
 const About = () => {
+
     return (
         <Fragment>
             <section className="bg-white mx-5 py-10 px-5 mt-10 rounded-lg border-2">
@@ -14,6 +17,8 @@ const About = () => {
                     of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
                 </div>
                 
+                <Pledges />
+
             </section>
         </Fragment>
     )

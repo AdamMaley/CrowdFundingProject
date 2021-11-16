@@ -1,6 +1,7 @@
 import React, {Fragment, useState} from 'react';
 import logo from "../images/logo.svg";
 import hamburger from "../images/icon-hamburger.svg";
+import close from "../images/icon-close-menu.svg";
 
 const Header= () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -22,7 +23,16 @@ const Header= () => {
                 )}
 
                 <div>
-                    <img src={hamburger} alt="" className="w-6 cursor-pointer" onClick={() => setIsOpen(!isOpen)} />
+                    {isOpen ? (<img src={close} alt="" className="w-5 cursor-pointer"
+                    onClick={() => setIsOpen(!isOpen)} />
+                    ) : (
+                    <img 
+                    src={hamburger} 
+                    alt="" 
+                    className="w-6 cursor-pointer" 
+                    onClick={() => setIsOpen(!isOpen)} 
+                    />
+                    )}
                 </div>
             </header>
         </Fragment>

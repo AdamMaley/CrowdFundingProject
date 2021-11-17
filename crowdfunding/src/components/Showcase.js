@@ -9,8 +9,8 @@ const Showcase = () => {
                 <img src={mobileHero} alt="" />
             </section>
 
-            <section className="hidden">
-                <img src={desktopHero} alt="" />
+            <section className="hidden md:block">
+                <img src={desktopHero} alt="" className="w-full"/>
             </section>
         </Fragment>
     )

@@ -14,8 +14,9 @@ const Pledges = () => {
                     <article key={id} className="border-2 p-5 rounded-lg">
                         <h3 className="font-bold text-lg">{title}</h3>
                         <p className="desc font-bold">{pledge}</p>
-                        <p className="my-5">{desc}</p>
-                        <p className="font-bold text-4xl flex items-center mb-5">{left} <span className="font-light text-base text-gray-600 ml-3">left</span></p>
+                        <p className="desc-inner my-5">{desc}</p>
+                        <p className="desc-inner font-bold text-4xl flex items-center mb-5">{left}{" "}
+                        <span className="font-light text-base text-gray-600 ml-3">left</span></p>
                         <button className="btn py-2 px-6 rounded-full text-white">{button}</button>
                     </article>
                 )

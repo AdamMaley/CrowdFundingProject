@@ -16,9 +16,6 @@ const About = () => {
                     <p className="my-5 text-gray-600">Featuring artistan craftsmanship, the simplicity
                     of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
                 </div>
-                
-                <Pledges />
-
             </section>
         </Fragment>
     )

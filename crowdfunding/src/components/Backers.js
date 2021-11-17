@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 const Backers = () => {
     return (
         <Fragment>
-            <section className="bg-white mt-10 mx-5 px-5 py-10 flex items-center justify-center flex-col rounded-lg border-2">
+            <section className="bg-white mt-10 mx-5 px-5 py-10 flex items-center justify-center flex-col rounded-lg border-2 lg:w-2/3 lg:mx-auto">
                 <p className="border-b border-gray-200 pb-3 mt-5">
                     <span className="font-bold text-4xl">$89,914</span>
                     <br /> of $100,00 backed
